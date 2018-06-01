@@ -1,0 +1,17 @@
+.loginContainer {
+    background: url("./assets/img/jr_div_half2.png");
+}
+
+.loginContainer .page__content {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.loginContainer .section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
