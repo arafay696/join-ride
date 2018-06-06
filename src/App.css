@@ -1,5 +1,5 @@
-.loginContainer {
-    background: url("./assets/img/jr_div_half2.png");
+.page__background {
+    background: url("./assets/img/jr_div_half2.png") no-repeat;
 }
 
 .loginContainer .page__content {
@@ -14,4 +14,35 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.loginContainer input::placeholder {
+    color: #fff;
+}
+
+.loginContainer input, .text-input:invalid {
+    border-radius: 25px;
+    border: 2px solid #3B6163 !important;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.loginContainer input[type='password'] {
+    border: 2px solid #EE6723 !important;
+}
+
+.button--btn {
+    border-radius: 25px !important;
+    padding: 12px !important;
+    line-height: normal !important;
+
+    background: #1e5799 !important; /* Old browsers */
+    background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1e5799 0%, #7db9e8 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1e5799 0%, #7db9e8 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ) !important; /* IE6-9 */
 }
